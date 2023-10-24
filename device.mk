@@ -22,6 +22,9 @@ $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
 # Inherit Basic Call Recorder (BCR)
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
+# Inherit GAPPS
+$(call inherit-product, vendor/gms/common/common-vendor.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
