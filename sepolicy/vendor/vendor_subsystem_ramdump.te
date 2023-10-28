@@ -1,1 +1,1 @@
-allow vendor_subsystem_ramdump self:capability { net_admin };
+#allow vendor_subsystem_ramdump self:capability { net_admin };
